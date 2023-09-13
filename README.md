@@ -11,7 +11,7 @@ yarn dev
 
 ### 사용한 차트 라이브러리
 
-- react-chartjs-2 사용
+- 차트 라이브러리명 : react-chartjs-2
 - Example이 리액트 컴포넌트 형태로 되어 있어서 그대로 사용하거나 커스터마이징이 편리해서 선택했습니다.
 
 ### 기능 설명
@@ -19,7 +19,7 @@ yarn dev
 - changeDataForm 함수를 이용해서 서버에서 받아온 데이터를 가공했습니다.
 - 반복적으로 사용하는 상수는 CHARTITEM_COLOR 등의 객체로 관리하여 오류 발생 가능성을 줄였습니다.
 - 필요에 따라 커스텀 타입을 만들어 사용했습니다 e.g. ChartDataType
-- 오른쪽 상단의 지역 이름으로 만들어진 버튼을 클릭하면 해당 지역의 데이터만 필터링하여 Bar 차트의 색상을 변경하였습니다
+- 지역 이름으로 만들어진 버튼을 클릭하면 해당 지역의 데이터만 필터링하여 Bar 차트의 색상이 변경되게 했습니다.
 
 ```javascript
  const onClickAreaButton = (event: MouseEvent<HTMLInputElement>) => {
