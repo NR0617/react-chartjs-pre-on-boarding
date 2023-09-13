@@ -1,3 +1,12 @@
+## 실행 방법
+
+```
+git clone https://github.com/NR0617/react-chartjs-pre-on-boarding.git
+cd react-chartjs-pre-on-boarding
+yarn
+yarn dev
+```
+
 ## 기능 설명
 
 ### 사용한 차트 라이브러리
